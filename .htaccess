@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine on 
+
+#RewriteRule ^log_out$ res/php/user_actions/log_out.php?section=log_out [QSA]
+RewriteRule ^log_out$ res/php/user_actions/log_out.php [QSA]
+
+#Rutas Administradores
+RewriteRule ^admin/posts$ admin/index.php?section=posts [QSA]
+
+#Rutas Usuarios
+RewriteRule ^register$ index.php?section=register [QSA]
+RewriteRule ^log_in$ index.php?section=log_in [QSA]
+
