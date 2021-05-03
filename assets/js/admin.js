@@ -44,8 +44,9 @@ $(document).ready(function(){
 				if(data == "true") {
 					window.location.href = "http://localhost/cms_ucv/admin/";
 				}else{
+					console.log(data);
 					$('.txtEmailLogin,.txtPassLogin').val("");
-					swal("Sus credenciales no coinciden", "Por favor intente de nuevo", "info");
+					swal("Sus credenciales no coinciden", "Por favor intente de nuevo", "error");
 				}
 			}
 		});

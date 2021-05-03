@@ -10,7 +10,7 @@
 	<title>Administrador</title>
 </head>
 <body>	
-	<?php 
+	<?php
 		if (isset($_SESSION['admin'])) {
 			require 'view/navegacion/admin_nav.php'; 			
 		}

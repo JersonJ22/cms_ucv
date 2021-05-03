@@ -12,3 +12,11 @@
 	<div class="ui basic blue button btnAdminLogin">Iniciar Sesion</div>
 	<a href="register_admin" class="ui basic blue right floated button btnAdminRegister">Registrarme</a>
 </div>
+
+<?php
+
+$padre = dirname(__DIR__); 
+		    echo 'DIR -> '.$padre;
+		    echo '</br>DIR padre -> '.dirname($padre);	
+
+		    ?>

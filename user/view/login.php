@@ -11,3 +11,6 @@
 
 	<div class="ui basic blue button btnUserLogin center">Iniciar Sesion</div>
 </div>
+
+<?php
+
