@@ -1,5 +1,5 @@
 <?php
-	require '../../config/conexion.php';
+	require '../config/conexion.php';
 
 	class Admin_Actions{
 

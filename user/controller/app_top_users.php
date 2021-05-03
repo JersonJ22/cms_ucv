@@ -1,5 +1,5 @@
 <?php
-	require '../repository/user_repo.php';
+	require 'user/repository/user_repo.php';
 
 	//Con este objeto vamos a poder acceder a todo que tengamos en functions
 	$user = new User_Actions();

@@ -15,6 +15,9 @@
     </a>         
     <a href="evento" class="item">
       Comentario
+    </a> 
+    <a href="register" class="item">
+      Register
     </a>
         
     <div class="ui dropdown item">
@@ -22,7 +25,7 @@
         <div class="menu">
           <a class="item">Mi Perfil <i class="user icon"></i></a>
           <a href="publicaciones" class="item">Publicaciones</a> 
-          <a href="http://localhost/web/cms_cursos/log_out" class="item">Salir <i class="power off icon"></i></a>    
+          <a href="log_out" class="item">Salir <i class="power off icon"></i></a>    
         </div>
       </div>
   </div>

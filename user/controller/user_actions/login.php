@@ -1,5 +1,5 @@
 <?php
-	require '../../repository/functions_user.php';
+	require '../../repository/user_repo.php';
 
 	$user = new User_Actions();
 

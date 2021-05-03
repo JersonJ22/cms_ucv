@@ -1,4 +1,4 @@
-<?php require 'admin/controller/app_top_admin.php'; ?>
+<?php require 'controller/app_top_admin.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,17 +18,17 @@
 	<?php
 		if (!isset($_SESSION['admin'])) {
 			require 'view/login.php';
-		}elseif(
-			isset($_SESSION['admin']) &&
-			isset($__GET['section']) && 
-			$__GET['section'] == "post" 
-		){
-			require 'view/admin/post.php';
+		}elseif (!isset($_SESSION['admin']) && 
+			isset($_GET['section']) &&
+			$_GET['section'] == "register_admin"
+		) {
+			require 'view/register_admin.php';
 		}
 	?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="//cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
 	<script src="../assets/css/framework/semantic/semantic.min.js"></script>
+	<script src="../assets/css/framework/uikit.min.js"></script>
 	<script src="../assets/js/admin.js"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>

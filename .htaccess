@@ -6,6 +6,7 @@ RewriteRule ^log_out$ res/php/user_actions/log_out.php [QSA]
 
 #Rutas Administradores
 RewriteRule ^admin/posts$ admin/index.php?section=posts [QSA]
+RewriteRule ^admin/register_admin$ admin/index.php?section=register_admin [QSA]
 
 #Rutas Usuarios
 RewriteRule ^register$ index.php?section=register [QSA]

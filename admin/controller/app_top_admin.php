@@ -1,5 +1,5 @@
 <?php
-	require '../repository/admin_repo.php';
+	require 'repository/admin_repo.php';
 
 	//Con este objeto vamos a poder acceder a todo que tengamos en functions
 	$admin = new Admin_Actions();

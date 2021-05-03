@@ -4,10 +4,11 @@
 	<div class="ui input">
 		<input type="text" class="txtEmailLogin" placeholder="Correo Electronico/Usuario" autofocus="autofocus">		
 	</div>
-	<p><b>Contrasena</b></p>
+	<p><b>Contraseña</b></p>
 	<div class="ui input">
-		<input type="password" class="txtPassLogin" placeholder="Contrasena">		
+		<input type="password" class="txtPassLogin" placeholder="Contraseña">		
 	</div>
 
 	<div class="ui basic blue button btnAdminLogin">Iniciar Sesion</div>
+	<a href="register_admin" class="ui basic blue right floated button btnAdminRegister">Registrarme</a>
 </div>

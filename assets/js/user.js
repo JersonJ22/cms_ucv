@@ -49,7 +49,7 @@ $(document).ready(function(){
 				if(data == "true") {
 					window.location.href = "http://localhost/cms_ucv/";
 				}else{
-					alert("Sus credenciales no coinciden, por favor intente de nuevo")
+					swal("Sus credenciales no coinciden", "Por favor intente de nuevo", "info");
 				}
 			}
 		});

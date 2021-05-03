@@ -1,5 +1,5 @@
 <div class="register_container">
-	<img src="assets/resources/img/logo.jpg" class="logo" alt="CREARQ">
+	<img src="../assets/resources/img/logo.jpg" class="logo" alt="CREARQ">
 	<p><b>Nombre</b></p>
 	<div class="ui input">
 		<input type="text" class="txtNameRegister" placeholder="Nombre">		
@@ -18,7 +18,7 @@
 	</div>
 	<p><b>Contraseña</b></p>
 	<div class="ui input">
-		<input type="password" class="txtPassRegister" placeholder="Contrasena">		
+		<input type="password" class="txtPassRegister" placeholder="Contraseña">		
 	</div>
 	<div class="ui basic blue button btnRegisterUser center">Registrarme</div>
 </div>

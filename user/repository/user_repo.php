@@ -1,5 +1,5 @@
 <?php
-	require '../../config/conexion.php';
+	require 'config/conexion.php';
 
 	class User_Actions{		
 		public function login_user($user_name, $pass){				
@@ -22,10 +22,9 @@
 			}else{
 				return false;
 			}
-		}
-	}
+		}	
 
-	public function register_user($name, $last_name, $user_name, $email, $pass){			
+		public function register_user($name, $last_name, $user_name, $email, $pass){			
 			global $database;
 
 			if ($this->checkExistance($user_name, $email) == 0) {
@@ -44,4 +43,5 @@
 			}
 
 		}
+	}
 ?>
